@@ -1,0 +1,173 @@
+@media (max-width: 640px) {
+    .nav {
+        width: 70px;
+    }
+
+    .nav__list {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 640px) {
+    .burger {
+        height: 10vh;
+    }
+
+    .burger__patty {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .burger--active .burger__patty {
+        -webkit-transform: scale(0.8) rotate(90deg);
+        transform: scale(0.8) rotate(90deg);
+    }
+}
+
+/*
+========================================
+---------- RESPONSIVE STYLE ------------
+========================================
+*/
+
+@media (max-width: 768px) {
+
+    .heading h4 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .home-content {
+        text-align: center;
+        margin: 0 auto;
+        height: auto;
+        padding: 0px 30px;
+        width: 100vw;
+    }
+
+    .home-content .home-box-content {
+        right: 0;
+        margin-bottom: 30px;
+        padding: 20px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .about-content .about-box-text p, .about-content .about-box-text h4 {
+        text-align: left;
+    }
+
+    .home-content h1 {
+        margin-bottom: 0px;
+        padding-top: 60px;
+        font-size: 22px;
+    }
+
+    .home-content h1 em {
+        font-size: 36px;
+    }
+
+    .home-content .left-text {
+        float: none;
+        width: auto;
+        text-align: initial;
+    }
+
+    .home-content .right-image {
+        text-align: center;
+        float: none;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 20px;
+        object-fit: contain;
+    }
+
+
+    .about-content {
+        height: auto;
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .projects .projects--line {
+        flex-direction: column;
+    }
+    .projects .projects--line div {
+        padding: 10px 0 !important;
+    }
+    .projects .projects--line .projects--line_name p.name {
+        padding-bottom: 20px;
+    }
+
+    .about-content .heading {
+        padding-top: 10%;
+    }
+
+    .about-box-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .about-box-text {
+        margin-bottom: 30px;
+    }
+
+    .about-box-content img {
+        position: relative;
+    }
+
+    .about-content .about-box-text {
+        background-color: #fff;
+        margin-top: -30px;
+    }
+
+    .projects-content {
+        width: 100vh;
+        height: 100vh;
+        padding: 0px 30px;
+    }
+
+    .project-item {
+        padding: 0px 120px;
+    }
+
+    .project-item img {
+        max-width: 100%;
+    }
+
+    .projects-content .heading {
+        padding-top: 25%;
+    }
+
+    .projects-content .owl-carousel {
+        margin: 0;
+        width: 100%;
+    }
+
+    .projects-content .text-content {
+        display: none;
+    }
+
+    .contact-content .more-info {
+        padding: 30px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        position: relative;
+        margin-bottom: 60px;
+    }
+
+    .contact-content .contat-form {
+        background-color: rgba(250, 250, 250, 0.03);
+        padding: 20px;
+        margin-right: 0px;
+    }
+
+    .contact-content {
+        height: auto;
+        width: 100vw;
+        padding: 0px 30px;
+    }
+
+    .contact-content .heading {
+        padding-top: 15%;
+    }
+}
