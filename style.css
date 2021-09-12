@@ -1,0 +1,109 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	
+}
+ul li {
+	list-style-type: none;
+}
+.body{
+	background-color:#4f076d;
+}
+
+
+/* CLASSES */
+
+.nav_list {
+	padding: 0;
+	display: flex;
+	background-color: snow;
+	width: 1000px;
+	height: 45px;
+	position: relative;
+	left: 150px;
+	top: 100px;
+}
+.nav_list_item {
+	padding: 10px 15px 20px 20px;
+	cursor: pointer;
+	display: flex;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.category{
+	display: flex;
+}
+.arrow{
+	margin: 5px;
+}
+.category_name_span{
+	font-weight : bold;
+}
+.nav_list_item ul {
+	display: none;
+	flex-wrap: wrap;
+	background-color: #fff;
+	padding: 12px;
+	width: 100%;
+	position: absolute;
+    left: 0;
+}
+
+
+.nav_list_item ul li {
+	height: 40px;
+	color: #6bb9ef;
+	background-color: #fff;
+	text-shadow: none;
+	flex-basis: calc(100% / 4);
+}
+.category_name{
+	text-decoration: none;
+	color: black;
+}
+
+
+.list_cataloga li{
+	transition: 1s ;
+
+}
+
+
+
+.list_cataloga li:hover{
+	font-weight : bold;
+	transition: 1s ;
+}
+.category_text {
+	flex-wrap: wrap;
+  	position: absolute;	
+	width: 100%;
+	left: 0;
+	top: 45px;
+}
+
+.category_text_item{
+	margin: 0;
+	width: 100%;
+	color: #6bb9ef;
+	background-color: #fff;
+	text-shadow: none;
+	flex-basis: calc(100% / 4);
+	
+}
+.nav_list_item:hover > ul {
+	display: flex;
+	top: 45px;
+	z-index: 1;
+}
+.category:hover>.category_name{
+	text-decoration: underline;
+	color: black;
+}
+.category:hover>.arrow{
+	transform: rotate(180deg);
+}
+
+	
+
+
+
