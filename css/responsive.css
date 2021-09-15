@@ -2,13 +2,15 @@
     .nav {
         width: 70px;
     }
+    
+    .projects{
+        padding: 25px;
+    }
 
     .nav__list {
         height: 90vh;
     }
-}
-
-@media (max-width: 640px) {
+    
     .burger {
         height: 10vh;
     }
