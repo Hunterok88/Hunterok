@@ -2,15 +2,10 @@
     .nav {
         width: 70px;
     }
-    
-    .projects{
-        padding: 25px;
-    }
 
     .nav__list {
         height: 90vh;
     }
-    
     .burger {
         height: 10vh;
     }
@@ -37,6 +32,9 @@
     .heading h4 {
         font-size: 22px;
         margin-bottom: 30px;
+    }
+    #logo{
+        width: 150px;
     }
 
     .home-content {
