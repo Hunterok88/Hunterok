@@ -1,3 +1,72 @@
+@media (min-width: 992px){
+    /* .container{
+        width: 100vw;
+    } */
+    /* .col-md-offset-2{
+        margin-left: 10%;
+        margin-right: 10%;
+    } */
+
+    /* .contact-content{
+        width: 50vw;
+    } */
+
+    .contact-content .heading{
+       padding: 0;
+    }
+    .heading h4{
+        padding: 40px 0;
+        margin: 0;
+    }
+
+    #logo{
+        width: 300px;
+    }
+    .nash-contakt{
+        width: 80%;
+    }
+    .contact-content .more-info{
+        margin: 0;
+        
+    }
+
+    .about-content, .about-content .heading, .townhouse .about-content, .townhouse .about-content .heading{
+      padding-top: 5%;
+    }
+
+   
+
+    .cak_doehat{
+        width: 50%;
+    }
+    .nash_contakt_list{
+        width: 50%;
+    }.nash-contakt{
+        width: 100%;
+    }
+    .contact-content{
+        height: 100vh;
+        min-height: 100%;
+    }
+    .more-info{
+        height: auto;
+
+    }
+
+    /* .contact-content .contat-form{
+        width: 50vw;
+        margin: 0;
+        padding: 30px;
+    } */
+
+    /* .contact-content .more-info{
+        margin: 0;
+        width: 50vw;  
+    } */
+
+    
+   
+}
 /*
 ========================================
 ---------- Адаптация на планшет ------------
@@ -6,7 +75,7 @@
 
 @media  all
   and (min-device-width: 640px)
-  and (max-device-width: 2040px) {
+  and (max-device-width: 992px) {
 
     .panel{
         width: 100vw;
@@ -47,30 +116,24 @@
     }
     .contact-content .contat-form{
         padding: 30px;
-        margin: 0;
-        
+        margin: 0 0 0 24%;
+        width: 52%;
+ 
     }
     .contact-content .more-info{
         padding: 50px 30px;
         position: absolute;
-        left: 7%;
-       
+        left: 25%;
+        right: 25%;
+        top: 25%;
+        margin: 0;
+    }
 
-    }
-    .col-md-4{
-        width: 100vw;
-    }
-    .col-md-8{
-        float: none;
-    }
-    b{
-        padding: 10px 0;
-    }
-    /* .projects .projects--line .projects--line_status{
-        padding-left: 10px;
-    } */
     .projects .projects--line .projects--line_status{
         text-align: left;
+    }
+    .nash_contakt_list{
+
     }
 }
 
