@@ -34,6 +34,12 @@
     .more-info{
         height: auto;
     }   
+    .projects .projects--line .projects--line_status{
+        padding-left: 10px;
+    }
+    .projects .projects--line{
+        align-items: flex-start;
+    }
 }
 /*
 ========================================
@@ -72,30 +78,39 @@
     .projects .projects--line .projects--line_name p.name{
         padding-bottom: 20px;
     }
+    .about-content .about-box-text{
+        padding: 0 12px;
+    }
     .about-content .about-box-text h4{
         margin-bottom: 0;
         text-align: center;
         display: block;
         font-weight: bold;
+        padding-top: 10px;
     }
     .contact-content .heading{
         padding-top: 5%;
     }
     .contact-content .contat-form{
         padding: 30px;
-        margin: 0 0 0 24%;
-        width: 52%;
+        margin: 0;
+        width: 100%;
     }
     .contact-content .more-info{
         padding: 50px 30px;
         position: absolute;
-        left: 25%;
+        left: 0%;
         right: 25%;
         top: 25%;
         margin: 0;
+        width: 100%;
     }
     .projects .projects--line .projects--line_status{
         text-align: left;
+        padding-left: 10px;
+    }
+    .nash_contakt_list{
+        padding: 0;
     }
 }
 /* 
@@ -135,7 +150,7 @@
     }
     #logo{
         width: 150px;
-        margin: 10px auto 10px auto;
+        margin: 11px auto 11px auto;
     }
     #slider{
         margin: 0;
@@ -147,6 +162,7 @@
     .col-md-12 .about-box-text{
         margin-top: 0;
         background-color: #fff;
+        padding-bottom: 0;
     }
 
     .projects .projects--line{
@@ -178,7 +194,9 @@
     .container{
         padding: 0;
     }
-    
+    .projects .projects--line .projects--line_status{
+        padding-left: 10px;
+    }
 
     .contact-content .heading {
         padding-top: 15%;
