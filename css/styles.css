@@ -1629,8 +1629,9 @@ body.lb-disable-scrolling {
     height: 200px;
     list-style: none;
 }
-.about-content {
-    background-color: #efefef;
+
+.about-content-glovna{
+  background-color: #efefef;
 }
 .about-box-content{
     box-shadow: 3px 4px 6px 5px rgb(0 0 0 / 20%)
