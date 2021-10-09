@@ -257,13 +257,22 @@
         .location_link{
             display: none;
         }
+        .nav__link img{
+            width: 30px;
+        }
     /* Пункт 1 */
+    .panel{
+        min-height: auto;
+        
+    }
     .home-content{
         justify-content: flex-start
     }
     .home-content h1{
         padding-top: 0;
         width: 100vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .home-content .home-box-content{
         right: 0;
@@ -273,14 +282,18 @@
         padding: 0 15px;
     }
     .home-content .screen_img img{
-        width: 120%;
+        width: 120%; 
+    }
+    .right--wrapper{
+        padding-top: 30px;
+    }.row{
+        margin: 0;
     }
     /* Пункт 2 */
     .home-content h1 em{
         margin: 0;
         width: 100vw;
         font-size: 70px;
-
     }
     .home-content .home-box-content{
         margin-top: 0;
