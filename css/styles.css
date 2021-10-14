@@ -386,7 +386,7 @@ ul {
 }
 
 .home-content h1 {
-  padding-top: 120px;
+  /* padding-top: 120px; */
   font-size: 30px;
   text-transform: uppercase;
   color: #fff;
@@ -402,10 +402,10 @@ ul {
 }
 
 .home-content .home-box-content {
-  margin-top: 45px;
+  /* margin-top: 45px; */
   background-color: #455871;
   position: relative;
-  right: -100px;
+  /* right: -100px; */
   padding: 30px;
   display: flex;
   align-items: center;

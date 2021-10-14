@@ -1,10 +1,11 @@
 @media (min-width: 992px){
     /* ГЛАВНАЯ */
+        
         .contact-content .heading{
         padding: 0;
         }
         .heading h4{
-            padding: 40px 0;
+            padding: 20px 0;
             margin: 0;
         }
         #logo{
@@ -15,6 +16,7 @@
         }
         .contact-content .more-info{
             margin: 0; 
+            
         }
         .about-content, .about-content .heading, .townhouse .about-content, .townhouse .about-content .heading{
         padding-top: 5%;
@@ -106,6 +108,9 @@
             display: block;
             font-weight: bold;
             padding-top: 10px;
+        }
+        .contact-content{
+            height: 120vh;
         }
         .contact-content .heading{
             padding-top: 5%;
