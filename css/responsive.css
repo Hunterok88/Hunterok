@@ -56,6 +56,9 @@
             width: 85%;
             margin: 0 8%;
         }
+        .nav{
+            width: 80px;
+        }
         /* .how_to_drive img{
         padding: 0 45%;
         } */
@@ -83,7 +86,7 @@
             padding-top: 20px;
         }
         .burger{
-            height: 13vh;
+            height: 10vh;
         }
         .burger{
             padding: 20px;
@@ -107,6 +110,9 @@
         .contact-content .heading{
             padding-top: 5%;
         }
+        /* .img-responsive{
+            margin-left: 25px;
+        } */
         .contact-content .contat-form{
             padding: 30px;
             margin: 0;
@@ -129,6 +135,54 @@
             padding: 0;
         }
     /* Пункт 1 */
+    .panel{
+        min-height: auto;
+        
+    }
+    .home-content{
+        justify-content: flex-start
+    }
+    .home-content h1{
+        padding-top: 0;
+        width: 100vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .home-content .home-box-content{
+        right: 0;
+        flex-direction: column
+    }
+    .home-content .left-text{
+        padding: 0 15px;
+    }
+    .home-content .screen_img img{
+        width: 120%; 
+    }
+    .right--wrapper{
+        padding-top: 30px;
+    }.row{
+        margin: 0;
+    }
+    /* Пункт 2 */
+    .home-content h1 em{
+        margin: 0;
+        width: 100vw;
+        font-size: 70px;
+    }
+    .home-content .home-box-content{
+        margin-top: 0;
+    }
+    .home-content{
+        height: 95%;
+        padding: 0;
+    }
+    .info-blok2{
+        width: 95vw;
+    }
+    .flex--row{
+        flex-direction: column;
+    }
 }
 /* 
 ========================================
@@ -175,7 +229,12 @@
             margin: 11px auto 11px auto;
         }
         #slider{
-            margin: 0;
+            
+            text-align: center;
+            margin-top: 10px;
+        }
+        #slider ul li{
+            margin-left: 0;
         }
         
         .about-content .col-md-12 .about-box-text h4 {
