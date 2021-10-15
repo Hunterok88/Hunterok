@@ -409,6 +409,7 @@ ul {
   padding: 30px;
   display: flex;
   align-items: center;
+  
   flex-direction: row;
 }
 

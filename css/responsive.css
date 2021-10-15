@@ -196,9 +196,15 @@
  */
  @media (max-width: 640px) {
      /* ГЛАВНАЯ */
+     .townhouse .primary-button a{
+         font-size: 16px;
+     }
         .how_to_drive{
             width: 85%;
             margin: 0 8%;
+        }
+        .heading h4{
+            font-weight:bold;
         }
 
         /* Навигация */
@@ -259,6 +265,9 @@
         .projects--line_name{
             padding: 15px 0px;
         }
+        .projects-content{
+            padding: 0;
+        }
         .name {
             padding-top: 15px;
             font-size: 20px;
@@ -297,7 +306,7 @@
             margin-bottom: 60px;
         }
         .contact-content {
-            height: auto;
+            height: 90vh;
             width: 100vw;
             padding: 0px 30px;
         }
@@ -325,33 +334,54 @@
             width: 30px;
         }
     /* Пункт 1 */
-    .panel{
+    /* .panel{
         min-height: auto;
-        
+    } */
+    .proekt1-info{
+        width: 84vw;
+        border: 1px solid #000;
     }
+    .info__table{
+        margin-top: 0;
+    }
+    .td_hint{
+        font-size: 12px;
+    }
+
     .home-content{
         justify-content: flex-start
     }
     .home-content h1{
+        align-items: center;
         padding-top: 0;
         width: 100vw;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 25px;
+        height: 16vh;
     }
     .home-content .home-box-content{
         right: 0;
-        flex-direction: column
+        flex-direction: column;
+        margin-top: 0;
+        height: 67vh;
+        margin-bottom: 5%;
     }
     .home-content .left-text{
-        padding: 0 15px;
+        padding: 30px 15px;
+    }
+    .townhouse .about-content{
+        padding-top: 50px;
     }
     .home-content .screen_img img{
         width: 120%; 
     }
-    .right--wrapper{
-        padding-top: 30px;
-    }.row{
+    /* .right--wrapper{
+        padding: 30px 0;
+    } */
+    .row{
         margin: 0;
+        
     }
     /* Пункт 2 */
     .home-content h1 em{
@@ -359,12 +389,13 @@
         width: 100vw;
         font-size: 70px;
     }
-    .home-content .home-box-content{
-        margin-top: 0;
-    }
+    
     .home-content{
         height: 95%;
         padding: 0;
+    }
+    .townhouse .about-box--header{
+        padding-bottom: 10%;
     }
     .info-blok2{
         width: 95vw;
