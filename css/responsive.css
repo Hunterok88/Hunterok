@@ -144,6 +144,16 @@
         min-height: auto;
         
     }
+    .info__table{
+        margin-top: 0;
+    }
+    .td_hint {
+        font-size: 14px;
+    }
+    .proekt1-info{
+        width: 92vw;
+        border: 1px solid #000;
+    }
     .home-content{
         justify-content: flex-start
     }
@@ -187,6 +197,13 @@
     }
     .flex--row{
         flex-direction: column;
+    }
+    /* Пункт 3 */
+    .size__table{
+        margin-bottom: 0px;
+    }
+    .townhouse .house-plan--wrapper {
+        padding: 0;
     }
 }
 /* 
@@ -346,6 +363,7 @@
     }
     .td_hint{
         font-size: 12px;
+        width: 80vw;
     }
 
     .home-content{
@@ -389,13 +407,15 @@
         width: 100vw;
         font-size: 70px;
     }
-    
+    .townhouse .house--cost{
+        flex-direction: column
+    }
     .home-content{
         height: 95%;
         padding: 0;
     }
     .townhouse .about-box--header{
-        padding-bottom: 10%;
+        padding-bottom: 0;
     }
     .info-blok2{
         width: 95vw;
@@ -403,6 +423,12 @@
     .flex--row{
         flex-direction: column;
     }
-    
+     /* Пункт 3 */
+     .size__table{
+        margin-bottom: 0px;
+    }
+    .townhouse .house-plan--wrapper {
+        padding: 0;
+    }
    
 }
