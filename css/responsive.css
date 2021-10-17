@@ -1,8 +1,23 @@
 @media (min-width: 992px){
     /* ГЛАВНАЯ */
+        .townhouse .box_about_content{
+            width: 100%;
+            border: 1px solid #000;
+            margin-bottom: 50px;
+
+        }
+        .info__table{
+            margin: 0px; 
+        }
+        .size__table{
+            margin: 0;
+        }
+        .townhouse .projects-content .heading{
+            padding: 0;
+        }
         
         .contact-content .heading{
-        padding: 0;
+            padding: 0;
         }
         .heading h4{
             padding: 20px 0;
@@ -58,16 +73,13 @@
             width: 85%;
             margin: 0 8%;
         }
+        .row{
+            text-align: center;
+        }
         .nav{
             width: 80px;
         }
-        /* .how_to_drive img{
-        padding: 0 45%;
-        } */
-        /* .how_to_drive p{
-            padding: 0 1%;
-        } */
-    
+      
         .panel p:last-child{
             text-align: center;
         }
@@ -145,14 +157,15 @@
         
     }
     .info__table{
-        margin-top: 0;
+        margin: 0;
     }
     .td_hint {
         font-size: 14px;
     }
-    .proekt1-info{
+    .townhouse .box_about_content{
         width: 92vw;
         border: 1px solid #000;
+        margin-bottom: 50px;
     }
     .home-content{
         justify-content: flex-start
@@ -354,12 +367,13 @@
     /* .panel{
         min-height: auto;
     } */
-    .proekt1-info{
-        width: 84vw;
+    .townhouse .box_about_content{
+        width: 90vw;
         border: 1px solid #000;
+        margin-bottom: 50px;
     }
     .info__table{
-        margin-top: 0;
+        margin: 0;
     }
     .td_hint{
         font-size: 12px;
